@@ -14,31 +14,25 @@ struct ContentView: View {
   var body: some View {
     NavigationView {
       List {
-        ForEach(items.compactMap { $0.convert() }) { viewData in
-          NavigationLink {
-            ItemDetailView(viewData: viewData)
-          } label: {
-            Text(viewData.title)
-          }
-        }
-        .onDelete(perform: deleteItems)
-
-        NavigationLink {
-          ScrollView {
-            VStack(alignment: .leading) {
-              ForEach(WWDCSection.allCases, id: \.self) { section in
-                NavigationStack {
-                  NavigationLink {
-                    ItemDetailView(viewData: section.viewData)
-                  } label: {
-                    Text(section.viewData.title)
-                  }
-                }
-              }
+        Section("UserData") {
+          ForEach(items.compactMap { $0.convert() }) { viewData in
+            NavigationLink {
+              ItemDetailView(viewData: viewData)
+            } label: {
+              Text(viewData.title)
             }
           }
-        } label: {
-          Text("WWDCSection")
+          .onDelete(perform: deleteItems)
+        }
+
+        Section("DefaultData") {
+          ForEach(WWDCSection.allCases, id: \.self) { section in
+            NavigationLink {
+              ItemDetailView(viewData: section.viewData)
+            } label: {
+              Text(section.viewData.title)
+            }
+          }
         }
 
       }
