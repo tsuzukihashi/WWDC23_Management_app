@@ -3,6 +3,7 @@ import Foundation
 enum WWDCSection: CaseIterable {
   case Bring_widgets_to_life
   case Meet_SwiftData
+  case Model_your_schema_with_SwiftData
 
   var viewData: ItemViewData {
     switch self {
@@ -10,6 +11,8 @@ enum WWDCSection: CaseIterable {
       return .Bring_widgets_to_life
     case .Meet_SwiftData:
       return .Meet_SwiftData
+    case .Model_your_schema_with_SwiftData:
+      return .Model_your_schema_with_SwiftData
     }
   }
 }
