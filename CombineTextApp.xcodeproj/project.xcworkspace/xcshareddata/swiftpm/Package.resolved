@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "tsuzukit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tsuzukihashi/TsuzuKit",
+      "state" : {
+        "revision" : "56be584f49120fc3a86eedc68daf889a9b50ed30",
+        "version" : "0.1.8"
+      }
+    }
+  ],
+  "version" : 2
+}
