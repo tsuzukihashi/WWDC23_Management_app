@@ -10,6 +10,7 @@
 		AA679BFE2A33370500E51843 /* TsuzuKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA679BFD2A33370500E51843 /* TsuzuKit */; };
 		AA6DF15E2A4898BF00B5218D /* Meet SwiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DF15D2A4898BF00B5218D /* Meet SwiftData.swift */; };
 		AA986A772A48B15100BD0144 /* Model_your_schema_with_SwiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA986A762A48B15100BD0144 /* Model_your_schema_with_SwiftData.swift */; };
+		AA986A792A49AA5700BD0144 /* Build_an_app_with_SwiftData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA986A782A49AA5700BD0144 /* Build_an_app_with_SwiftData.swift */; };
 		AAA36CD92A32352B002EAD97 /* CombineTextAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA36CD82A32352B002EAD97 /* CombineTextAppApp.swift */; };
 		AAA36CDB2A32352B002EAD97 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA36CDA2A32352B002EAD97 /* Persistence.swift */; };
 		AAA36CDE2A32352B002EAD97 /* CombineTextApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAA36CDC2A32352B002EAD97 /* CombineTextApp.xcdatamodeld */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		AA6DF15D2A4898BF00B5218D /* Meet SwiftData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meet SwiftData.swift"; sourceTree = "<group>"; };
 		AA986A762A48B15100BD0144 /* Model_your_schema_with_SwiftData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_your_schema_with_SwiftData.swift; sourceTree = "<group>"; };
+		AA986A782A49AA5700BD0144 /* Build_an_app_with_SwiftData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build_an_app_with_SwiftData.swift; sourceTree = "<group>"; };
 		AAA36CD52A32352B002EAD97 /* CombineTextApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineTextApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA36CD82A32352B002EAD97 /* CombineTextAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTextAppApp.swift; sourceTree = "<group>"; };
 		AAA36CDA2A32352B002EAD97 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				AAA36D192A332C5F002EAD97 /* Bring widgets to life.swift */,
 				AA6DF15D2A4898BF00B5218D /* Meet SwiftData.swift */,
 				AA986A762A48B15100BD0144 /* Model_your_schema_with_SwiftData.swift */,
+				AA986A782A49AA5700BD0144 /* Build_an_app_with_SwiftData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				AAA36D1C2A332D46002EAD97 /* WWDCSection.swift in Sources */,
 				AAA36D0D2A3238C6002EAD97 /* CombineFormView.swift in Sources */,
 				AAA36CD92A32352B002EAD97 /* CombineTextAppApp.swift in Sources */,
+				AA986A792A49AA5700BD0144 /* Build_an_app_with_SwiftData.swift in Sources */,
 				AA6DF15E2A4898BF00B5218D /* Meet SwiftData.swift in Sources */,
 				AA986A772A48B15100BD0144 /* Model_your_schema_with_SwiftData.swift in Sources */,
 				AAA36CE02A32352B002EAD97 /* ContentView.swift in Sources */,
