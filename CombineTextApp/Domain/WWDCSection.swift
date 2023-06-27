@@ -5,6 +5,7 @@ enum WWDCSection: CaseIterable {
   case Meet_SwiftData
   case Model_your_schema_with_SwiftData
   case Build_an_app_with_SwiftData
+  case Dive_deeper_into_SwiftData
 
   var viewData: ItemViewData {
     switch self {
@@ -16,6 +17,8 @@ enum WWDCSection: CaseIterable {
       return .Model_your_schema_with_SwiftData
     case .Build_an_app_with_SwiftData:
       return .Build_an_app_with_SwiftData
+    case .Dive_deeper_into_SwiftData:
+      return .Dive_deeper_into_SwiftData
     }
   }
 }
